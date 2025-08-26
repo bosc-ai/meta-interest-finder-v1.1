@@ -296,9 +296,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Meta Interest Finder Pro — Open Source</title>
+        <title>Meta Interest Finder Pro — 100% Free</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Open-source Meta Ads targeting finder with country filter, audience sizes, and exports. Unlimited. No login." />
+        <meta name="description" content="100% free Meta Ads targeting finder with country filter, audience sizes, and exports. Unlimited. No login." />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       </Head>
@@ -335,7 +335,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-10 items-center">
               <div className="lg:col-span-7">
                 <motion.p initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .05 }} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-indigo-500/30 text-indigo-700 dark:text-indigo-300 bg-indigo-50/70 dark:bg-indigo-900/10 mb-5">
-                  <Sparkle className="w-4 h-4" /> World’s first open-source, no-login Meta Interest Finder - unlimited
+                  <Sparkle className="w-4 h-4" /> World’s first 100% free, no-login Meta Interest Finder - unlimited
                 </motion.p>
                 <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .12 }} className="text-4xl sm:text-5xl font-extrabold leading-tight">
                   Find Meta Ads <span className="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">interests</span> that convert.
@@ -351,7 +351,7 @@ export default function Home() {
                     <span className="text-xs px-2 py-1 rounded bg-indigo-600/10 text-indigo-700 dark:text-indigo-300">Unlimited</span>
                   </div>
                   <div className="space-y-3">
-                    {[{ name: 'Ayurvedic skincare', id: '6003451234567', reach: '1.2M' }, { name: 'Oxidised', id: '6003378890123', reach: '820K' }, { name: 'Real Estate', id: '6003033311224', reach: '3.1M' }].map((m, i) => (
+                    {[{ name: 'Ayurvedic skincare', id: '6003451234567', reach: '1.2M' }, { name: 'Oxidised Jewellery', id: '6003378890123', reach: '820K' }, { name: 'Real Estate', id: '6003033311224', reach: '3.1M' }].map((m, i) => (
                       <div key={m.id} style={{ animationDelay: `${i * 0.08}s` }} className="opacity-0 animate-[fadeIn_.6s_forwards] flex items-center justify-between p-3 rounded-xl bg-white/70 dark:bg-slate-800/60 ring-1 ring-slate-900/5 dark:ring-white/10">
                         <div>
                           <div className="font-medium">{m.name}</div>
@@ -800,7 +800,7 @@ export default function Home() {
                 <span className="font-semibold">Interest Finder Pro</span>
                 <span className="text-slate-400">© {new Date().getFullYear()} · serves.in</span>
               </div>
-              <div className="text-sm text-slate-400">Made with Love. No login. No paywall. Unlimited.</div>
+              <div className="text-sm text-slate-400">Made with Love ❤️. No login. No paywall. Unlimited.</div>
             </div>
           </Container>
         </footer>
