@@ -408,8 +408,8 @@ export default function Home() {
                     ))}
                   </select>
                 </div>
-                <button onClick={clearRows} className={btnGhost}><Trash2 className="w-4 h-4" />Clear</button>
-                <div className="hidden md:flex gap-2">
+               <button onClick={clearRows} className={btnGhost}><Trash2 className="w-4 h-4" />Clear</button>
+                <div className="flex gap-2 flex-wrap">
                   <button onClick={exportCSV} className={btn}><Download className="w-4 h-4" />CSV</button>
                   <button onClick={exportJSON} className={btn}><Database className="w-4 h-4" />JSON</button>
                   <button
